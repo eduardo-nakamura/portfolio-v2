@@ -1,0 +1,115 @@
+
+body{
+  background-color: #efefef;
+}
+.font__card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  background-color: #ffffff;  
+  text-align: center;
+  padding: 80px 0;
+
+}
+.font__card button{
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.font__card h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55.15px;
+}
+
+.font__card p{
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.fonts__1 h1,h2,h3,h4,h5{
+  font-family: var(--font-h-1);
+}
+
+.fonts__1 select,
+.fonts__1 p,
+.fonts__1 button{
+  font-family: var(--font-p-1);
+}
+
+.fonts__2 h1,h2,h3,h4,h5{
+  font-family: var(--font-h-2);
+}
+
+.fonts__2 select,
+.fonts__2 p,
+.fonts__2 button{
+  font-family: var(--font-p-2);
+}
+
+.fonts__3 h1,h2,h3,h4,h5{
+  font-family: var(--font-h-3);
+}
+
+.fonts__3 select,
+.fonts__3 p,
+.fonts__3 button{
+  font-family: var(--font-p-3);
+}
+
+.fonts__4 h1,h2,h3,h4,h5{
+  font-family: var(--font-h-4);
+}
+
+.fonts__4 select,
+.fonts__4 p,
+.fonts__4 button{
+  font-family: var(--font-p-4);
+}
+
+.fonts__5 h1,h2,h3,h4,h5{
+  font-family: var(--font-h-5);
+}
+
+.fonts__5 select,
+.fonts__5 p,
+.fonts__5 button{
+  font-family: var(--font-p-5);
+}
+
+.fonts__6 h1,h2,h3,h4,h5{
+  font-family: var(--font-h-6);
+}
+
+.fonts__6 select,
+.fonts__6 p,
+.fonts__6 button{
+  font-family: var(--font-p-6);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

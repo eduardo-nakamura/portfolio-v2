@@ -1,0 +1,34 @@
+.header__container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    display: flex;
+    justify-content: space-between;    
+    width: 100vw;
+    padding: 24px 48px; 
+    box-sizing: border-box;
+}
+.header__logo{
+    background-color: red;
+    
+}
+.header__buttons{
+    display: flex;
+    gap: 10px;
+}
+.header__buttons button, .header__language select{
+    border: 0;
+    background-color: transparent;
+}
+.header__buttons  button:focus, .header__language select:focus {
+    outline: none;
+}
+.header__language{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.header__language img{
+    width: 30px;
+}
