@@ -1,0 +1,12 @@
+.dice__container{
+    position: fixed;
+    background-color: red;
+    right: 0;
+    bottom: 100px;
+}
+.dice__container img{
+    width: 60px;
+}
+.dice__container button{
+    background-color: black;
+}

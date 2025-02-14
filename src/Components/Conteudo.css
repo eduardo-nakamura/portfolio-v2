@@ -1,0 +1,8 @@
+.conteudo{    
+    position: relative;
+    top: 65px;
+    height: 1000px;
+    padding: 50px 100px;
+    max-width: 1000px;    
+    margin: 0 auto;
+}

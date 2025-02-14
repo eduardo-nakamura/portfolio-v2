@@ -1,34 +1,59 @@
-.header__container{
+.header__container {
     position: fixed;
     top: 0;
     left: 0;
-    right:0;
+    right: 0;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     width: 100vw;
-    padding: 24px 48px; 
+    padding: 24px 48px;
     box-sizing: border-box;
+    z-index: 2;
+    background-color: white;
 }
-.header__logo{
-    background-color: red;
-    
+
+.header__logo img{
+    width: 30px;
 }
-.header__buttons{
-    display: flex;
-    gap: 10px;
-}
-.header__buttons button, .header__language select{
-    border: 0;
-    background-color: transparent;
-}
-.header__buttons  button:focus, .header__language select:focus {
-    outline: none;
-}
-.header__language{
+
+.header__buttons {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__buttons a {
+    color: #323232;
+}
+
+.header__buttons a,
+.header__language select {
+    border: 0;
+    background-color: transparent;
+
+}
+
+.header__buttons button:focus,
+.header__language select:focus {
+    outline: none;
+}
+
+.header__language {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 5px;
 }
-.header__language img{
+
+.header__language img {
     width: 30px;
+
+
+}
+
+.active-link p{
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
 }
