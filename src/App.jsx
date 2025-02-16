@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useLayoutEffect, useState, useRef, useEffect } from 'react';
 import soundFile from './assets/Audio/dieThrow1.ogg'; // Import the sound file
 import { BrowserRouter } from 'react-router-dom'
 
@@ -11,16 +11,23 @@ import Dice from './Components/Dice'
 function App() {
   const audioRef = useRef(new Audio(soundFile)); // Create audio element using useRef
   const [count, setCount] = useState(0)
+  const isInitialRender = useRef(true); // Ref to track initial render
   // const [classBtn, setClassBtn] = useState(false);
-
+  useLayoutEffect(() => {
+    isInitialRender.current = true; // Set ref before initial render
+  }, []); // Empty dependency array ensures it runs only once
   useEffect(() => {
-    // Play sound when count changes (after the component re-renders)
-    audioRef.current.pause(); // Pause the audio
+    if (isInitialRender.current) {
+      isInitialRender.current = false;
+      return;
+    }
+
+    audioRef.current.pause(); 
     audioRef.current.currentTime = 0;
     audioRef.current.play().catch(error => {
-      // Handle potential errors (e.g., autoplay blocked by browser)
       console.error("Error playing sound:", error);
     });
+
   }, [count]); // The effect depends on the count state
 
   function changeStyle() {

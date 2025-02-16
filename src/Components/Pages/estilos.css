@@ -1,8 +1,14 @@
-.home section,
+.home,
+.curriculo {
+    padding: 100px;
+}
 .curriculo section{
-    padding: 20px 0;
+    margin-top: 26px;
 }
 /* Home */
+.home__section{        
+    /* border: 1px solid blue; */
+}
 .home__intro{
     display: flex;
     justify-content: space-around;
@@ -48,6 +54,10 @@
     background-color: #fc8500;
     color: #fff;
 }
+.home__intro__name{
+    margin: 48px 0;
+}
+
 /* Curriculo */
 .curriculo h1{
     font-weight: 400;

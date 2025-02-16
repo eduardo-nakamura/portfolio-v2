@@ -7,6 +7,8 @@ import './Dice.css';
 
 
 
+import D1 from '../assets/svg/dice-six-faces-one.svg?react';
+
 // import D1 from '../assets/svg/dice-six-faces-one.svg?react';
 // import { ReactComponent as D1 } from '../assets/svg/dice-six-faces-one.svg?react'
 // import D2 from '../assets/svg/dice-six-faces-two.svg?react';
@@ -29,6 +31,7 @@ export default function Dice({ onChangeStyle, count }: DiceProps) {
     return (
         <div className='dice__container'>
             <button onClick={onChangeStyle}>
+                <D1 fill="red" width={50} height={50}/>
                 {/* Render the SVG component, not an <img> tag */}
                 {/* <img src={D1} alt="D1" /> */}
                 {/* {count} - No need to display count separately as the SVG shows it */}
