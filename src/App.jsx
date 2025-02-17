@@ -1,6 +1,6 @@
 import { useLayoutEffect, useState, useRef, useEffect } from 'react';
 import soundFile from './assets/Audio/dieThrow1.ogg'; // Import the sound file
-import { BrowserRouter } from 'react-router-dom'
+// import { BrowserRouter } from 'react-router-dom'
 
 import './css/reset.css'
 import './css/var.css'
@@ -43,10 +43,10 @@ function App() {
   }
   return (
     <div className={' fonts__' + count}>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <Header />
         <Conteudo onChangeStyle={changeStyle} count={count} />
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
       <Dice onChangeStyle={changeStyle} count={count} />    
     </div>
   )

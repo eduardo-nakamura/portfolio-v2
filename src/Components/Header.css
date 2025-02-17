@@ -13,7 +13,7 @@
     height: 80px;
 }
 
-.header__logo img{
+.header__logo img {
     width: 30px;
 }
 
@@ -22,6 +22,7 @@
     flex-direction: row;
     align-items: center;
     gap: 30px;
+    transition: all 0.3s;
 }
 
 .header__buttons a {
@@ -32,7 +33,7 @@
 .header__language select {
     border: 0;
     background-color: transparent;
-
+    font-size: 16px;
 }
 
 .header__buttons button:focus,
@@ -53,8 +54,56 @@
 
 }
 
-.active-link p{
+.active-link p {
     color: #000;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.header__buttons__mobile button,
+.header__menu__button {
+    background-color: transparent;
+}
+
+.header__menu__button {
+    font-size: 2rem;
+}
+
+.hide {
+    /* display: none; */
+    opacity: 0;
+}
+
+/* Breakpoint para smartphones menores */
+@media (max-width: 575px) {
+    .header__container {
+        padding: 24px;
+    }
+
+    .header__buttons {
+        position: fixed;
+        flex-direction: column;
+        align-items: stretch;
+        right: 0;
+        top: 80px;
+        width: 70vw;
+        height: 100vh;
+        background-color: rgb(241, 241, 241);
+        gap: 40px;
+        padding: 30px;
+        transition: all 0.2s solid;
+    }
+
+    .header__buttons a,
+    .header__language select {
+
+        font-size: 1.5rem;
+    }
+}
+
+/* Breakpoint para smartphones maiores e tablets menores */
+@media (min-width: 576px) {
+    .header__menu__button {
+        /* display: none; */
+    }
 }

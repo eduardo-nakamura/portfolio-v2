@@ -4,8 +4,9 @@ import AnimatedSection from '../AnimatedSection'
 export default function Curriculo() {
     return (
         <div className='curriculo' >
-            <h1>Eduardo <span>Naka</span>mura</h1>
             <section>
+                <p><strong>Frontend | Game Developer</strong></p>
+                <h1>Eduardo <span>Naka</span>mura</h1>
                 <p>Profissional de Front-end com experiência em desenvolvimento e design web. Sólida experiência em React.js, HTML5, CSS, Sass e JavaScript, com foco na criação de interfaces de usuário responsivas e de alta qualidade. Habilidade em versionamento de código com Git e GitHub.</p>
             </section>
             <section>
@@ -50,148 +51,10 @@ export default function Curriculo() {
                         </li>
                     </ul>
                 </section>
-                <section>
-                    <p>Experiência Profissional:</p>
-                    <ul>
-                        <li>
-                            <p>CONFLUENCE INFORMATICA (Maio 2019 - Setembro 2023)</p>
-                            <p>Desenvolvedor Front-End para o Monitor de Integrações Omnilinker ( Angular7 ) e outros projetos usando React.</p>
-                        </li>
-                        <li>
-                            <p>Carrefour (Outubro 2017 - Maio 2019)</p>
-                            <p>Trabalhei no e-commerce, publicando peças na página principal e categorias, desenvolvendo código front-end das landing pages e hotsites de conteúdo, atualizando as vitrines e páginas de produto.</p>
-                        </li>
-                        <li>
-                            <p>Saraiva e Siciliano · Full-time</p>
-                            <p>Comecei fazendo publicação e atualização de peças na página principal e categorias, e front-end das landing pages, hotsites de conteúdo e montagem de e-mail marketing.</p>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <p>Experiência Profissional:</p>
-                    <ul>
-                        <li>
-                            <p>CONFLUENCE INFORMATICA (Maio 2019 - Setembro 2023)</p>
-                            <p>Desenvolvedor Front-End para o Monitor de Integrações Omnilinker ( Angular7 ) e outros projetos usando React.</p>
-                        </li>
-                        <li>
-                            <p>Carrefour (Outubro 2017 - Maio 2019)</p>
-                            <p>Trabalhei no e-commerce, publicando peças na página principal e categorias, desenvolvendo código front-end das landing pages e hotsites de conteúdo, atualizando as vitrines e páginas de produto.</p>
-                        </li>
-                        <li>
-                            <p>Saraiva e Siciliano · Full-time</p>
-                            <p>Comecei fazendo publicação e atualização de peças na página principal e categorias, e front-end das landing pages, hotsites de conteúdo e montagem de e-mail marketing.</p>
-                        </li>
-                    </ul>
-                </section>
+              
             </AnimatedSection>
 
-            <AnimatedSection>
-                <section>
-                    <p>Experiência Profissional:</p>
-                    <ul>
-                        <li>
-                            <p>CONFLUENCE INFORMATICA (Maio 2019 - Setembro 2023)</p>
-                            <p>Desenvolvedor Front-End para o Monitor de Integrações Omnilinker ( Angular7 ) e outros projetos usando React.</p>
-                        </li>
-                        <li>
-                            <p>Carrefour (Outubro 2017 - Maio 2019)</p>
-                            <p>Trabalhei no e-commerce, publicando peças na página principal e categorias, desenvolvendo código front-end das landing pages e hotsites de conteúdo, atualizando as vitrines e páginas de produto.</p>
-                        </li>
-                        <li>
-                            <p>Saraiva e Siciliano · Full-time</p>
-                            <p>Comecei fazendo publicação e atualização de peças na página principal e categorias, e front-end das landing pages, hotsites de conteúdo e montagem de e-mail marketing.</p>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <p>Experiência Profissional:</p>
-                    <ul>
-                        <li>
-                            <p>CONFLUENCE INFORMATICA (Maio 2019 - Setembro 2023)</p>
-                            <p>Desenvolvedor Front-End para o Monitor de Integrações Omnilinker ( Angular7 ) e outros projetos usando React.</p>
-                        </li>
-                        <li>
-                            <p>Carrefour (Outubro 2017 - Maio 2019)</p>
-                            <p>Trabalhei no e-commerce, publicando peças na página principal e categorias, desenvolvendo código front-end das landing pages e hotsites de conteúdo, atualizando as vitrines e páginas de produto.</p>
-                        </li>
-                        <li>
-                            <p>Saraiva e Siciliano · Full-time</p>
-                            <p>Comecei fazendo publicação e atualização de peças na página principal e categorias, e front-end das landing pages, hotsites de conteúdo e montagem de e-mail marketing.</p>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <p>Experiência Profissional:</p>
-                    <ul>
-                        <li>
-                            <p>CONFLUENCE INFORMATICA (Maio 2019 - Setembro 2023)</p>
-                            <p>Desenvolvedor Front-End para o Monitor de Integrações Omnilinker ( Angular7 ) e outros projetos usando React.</p>
-                        </li>
-                        <li>
-                            <p>Carrefour (Outubro 2017 - Maio 2019)</p>
-                            <p>Trabalhei no e-commerce, publicando peças na página principal e categorias, desenvolvendo código front-end das landing pages e hotsites de conteúdo, atualizando as vitrines e páginas de produto.</p>
-                        </li>
-                        <li>
-                            <p>Saraiva e Siciliano · Full-time</p>
-                            <p>Comecei fazendo publicação e atualização de peças na página principal e categorias, e front-end das landing pages, hotsites de conteúdo e montagem de e-mail marketing.</p>
-                        </li>
-                    </ul>
-                </section>
-            </AnimatedSection>
-            <AnimatedSection>
-                <section>
-                    <p>Experiência Profissional:</p>
-                    <ul>
-                        <li>
-                            <p>CONFLUENCE INFORMATICA (Maio 2019 - Setembro 2023)</p>
-                            <p>Desenvolvedor Front-End para o Monitor de Integrações Omnilinker ( Angular7 ) e outros projetos usando React.</p>
-                        </li>
-                        <li>
-                            <p>Carrefour (Outubro 2017 - Maio 2019)</p>
-                            <p>Trabalhei no e-commerce, publicando peças na página principal e categorias, desenvolvendo código front-end das landing pages e hotsites de conteúdo, atualizando as vitrines e páginas de produto.</p>
-                        </li>
-                        <li>
-                            <p>Saraiva e Siciliano · Full-time</p>
-                            <p>Comecei fazendo publicação e atualização de peças na página principal e categorias, e front-end das landing pages, hotsites de conteúdo e montagem de e-mail marketing.</p>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <p>Experiência Profissional:</p>
-                    <ul>
-                        <li>
-                            <p>CONFLUENCE INFORMATICA (Maio 2019 - Setembro 2023)</p>
-                            <p>Desenvolvedor Front-End para o Monitor de Integrações Omnilinker ( Angular7 ) e outros projetos usando React.</p>
-                        </li>
-                        <li>
-                            <p>Carrefour (Outubro 2017 - Maio 2019)</p>
-                            <p>Trabalhei no e-commerce, publicando peças na página principal e categorias, desenvolvendo código front-end das landing pages e hotsites de conteúdo, atualizando as vitrines e páginas de produto.</p>
-                        </li>
-                        <li>
-                            <p>Saraiva e Siciliano · Full-time</p>
-                            <p>Comecei fazendo publicação e atualização de peças na página principal e categorias, e front-end das landing pages, hotsites de conteúdo e montagem de e-mail marketing.</p>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <p>Experiência Profissional:</p>
-                    <ul>
-                        <li>
-                            <p>CONFLUENCE INFORMATICA (Maio 2019 - Setembro 2023)</p>
-                            <p>Desenvolvedor Front-End para o Monitor de Integrações Omnilinker ( Angular7 ) e outros projetos usando React.</p>
-                        </li>
-                        <li>
-                            <p>Carrefour (Outubro 2017 - Maio 2019)</p>
-                            <p>Trabalhei no e-commerce, publicando peças na página principal e categorias, desenvolvendo código front-end das landing pages e hotsites de conteúdo, atualizando as vitrines e páginas de produto.</p>
-                        </li>
-                        <li>
-                            <p>Saraiva e Siciliano · Full-time</p>
-                            <p>Comecei fazendo publicação e atualização de peças na página principal e categorias, e front-end das landing pages, hotsites de conteúdo e montagem de e-mail marketing.</p>
-                        </li>
-                    </ul>
-                </section>
-            </AnimatedSection>
+            
 
         </div>
 

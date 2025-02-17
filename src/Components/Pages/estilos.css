@@ -1,47 +1,55 @@
 .home,
 .curriculo {
-    padding: 100px;
+    padding: 20px 80px;
 }
-.curriculo section{
-    margin-top: 26px;
+
+.curriculo section {
+    margin-top: 48px;
+    width: 90%;
 }
+
 /* Home */
-.home__section{        
+.home__section {
     /* border: 1px solid blue; */
 }
-.home__intro{
+
+.home__intro {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 5vw;
 }
 
-.home__intro img{
+.home__intro img {
     filter: grayscale(1);
     border-radius: 14px;
     border: 2px solid black;
 }
-.home__intro__text{
+
+.home__intro__text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: left;
 
 }
-.home__intro__text h1{
+
+.home__intro__text h1 {
     font-weight: 600;
     font-size: 80px;
 }
-.home__intro__text p{
+
+.home__intro__text p {
     font-size: 20px;
     line-height: 29px;
-
 }
-.home__intro__buttons{
+
+.home__intro__buttons {
     display: flex;
     gap: 8px;
 }
-.home__intro__buttons button{
+
+.home__intro__buttons button {
     padding: 16px 32px;
     border-radius: 8px;
     border: 1px solid #023047;
@@ -50,32 +58,90 @@
     font-weight: 400;
     line-height: 29px;
 }
-.home__intro__buttons #btn1{
+
+.home__intro__buttons #btn1 {
     background-color: #fc8500;
     color: #fff;
 }
-.home__intro__name{
+
+.home__intro__name {
     margin: 48px 0;
 }
 
 /* Curriculo */
-.curriculo h1{
+.curriculo h1 {
     font-weight: 400;
     font-size: 80px;
     line-height: 90px;
 }
 
-.curriculo p{
+.curriculo p {
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
 }
 
-.curriculo span{
+.curriculo span {
     color: #00FF99;
 
 }
-.curriculo ul{
+
+.curriculo ul {
     list-style-type: disc;
     margin: 10px 0 10px 50px;
+}
+
+
+
+
+/* Breakpoint para smartphones menores */
+@media (max-width: 575px) {
+    body {
+        /* background-color: green; */
+    }
+
+    .home,
+    .curriculo {
+        padding: 24px;
+    }
+    .curriculo ul {
+        list-style-type: disc;
+        margin: 0 0 0 10px;
+    }
+    .curriculo section {
+        margin-top: 24px;
+    }
+    .curriculo p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+/* Breakpoint para smartphones maiores e tablets menores */
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        /* background-color: yellow; */
+    }
+}
+
+/* Breakpoint para tablets maiores e laptops menores */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        /* background-color: blue; */
+    }
+}
+
+/* Breakpoint para laptops maiores e desktops menores */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        /* background-color: blueviolet; */
+    }
+}
+
+/* Breakpoint para desktops maiores */
+@media (min-width: 1200px) {
+    body {
+        /* background-color: red; */
+    }
 }
