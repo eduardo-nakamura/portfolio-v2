@@ -104,6 +104,12 @@
     .curriculo {
         padding: 24px;
     }
+    /* Curriculo */
+    .curriculo h1 {
+        font-weight: 400;
+        font-size: 65px;
+        line-height: 65px;
+    }
     .curriculo ul {
         list-style-type: disc;
         margin: 0 0 0 10px;
